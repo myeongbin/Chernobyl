@@ -1,0 +1,13 @@
+#container{position:relative; background:linear-gradient(#000000,#2D3E36);overflow:hidden;}
+
+.title-wrap{width:100%; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:1;}
+
+.title-wrap .title{text-align:center; font-size:6rem; font-family:'Practice'; cursor:pointer;}
+.title-wrap .title:hover{color:var(--point-color); transition:all .3s ease;}
+.title-wrap .t2{margin:70px 0;}
+.title-wrap .title em{margin:25px; font-family: 'Noto Sans KR', sans-serif; font-size:2rem;}
+
+.img-wrap{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:0;}
+.img-wrap .t-img{width:850px; height:850px; border-radius:50%; overflow:hidden; opacity:0.7}
+.img-wrap .img1,.img3{display:none;}
+/* .title-wrap .title:hover .t-img{opacity:1;} */

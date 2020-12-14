@@ -1,0 +1,6 @@
+#preview .content{}
+#preview .content .desc{width:928px; text-align:center; margin:auto;}
+#preview .content .desc p{
+    font-size:1.25rem; font-weight:200;
+    line-height:180%; margin-top:42px;  opacity:0.7;
+}
