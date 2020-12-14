@@ -1,0 +1,50 @@
+/* 메인 로고 hover 회전 애니메이션 */
+header #gnb .menu .main-logo:hover img{
+    animation-name:rotate;
+    animation-duration:3s;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    /* animation:rotate 3s normal infinite linear; */
+}
+@-webkit-keyframes rotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+@keyframes rotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+/* 메인 타이틀 애니메이션 */
+#main .main-title h2{
+    animation-name:opacity;
+    animation-delay:3s;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+}
+@-webkit-keyframes opacity{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes opacity{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+#main .main-title h2 div{
+    animation-name:change;
+    animation-delay:7s;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    /* animation-direction:inherit; */
+    /* animation-iteration-count:infinite; */
+    animation-timing-function:ease-in;
+    /* transition:all .4s ease-in-out; */
+}
+@-webkit-keyframes change {
+    0%{transform:translate3d(0,0,0);}
+    100%{transform:translate3d(0,-100%,0);}
+}
+@keyframes change {
+    0%{transform:translate3d(0,0,0);}
+    100%{transform:translate3d(0,-100%,0);}
+}
